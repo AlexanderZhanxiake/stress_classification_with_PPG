@@ -144,7 +144,7 @@ def make_patient_data(subject_id,ma_usage):
     cycle = 15
     
     # Make subject data object for Sx
-    subject = SubjectData(main_path=main_path', subject_number=subject_id)
+    subject = SubjectData(main_path=main_path, subject_number=subject_id)
     
     # Empatica E4 data
     e4_data_dict = subject.get_wrist_data()
